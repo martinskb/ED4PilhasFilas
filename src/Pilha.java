@@ -48,7 +48,7 @@ public class Pilha {
         p.push(20);
         p.push(30);
 
-        p.mostrarTopo(); // Mostra o topo
+        p.mostrarTopo();
 
         while (!p.vazia()) {
             System.out.println("Removendo: " + p.pop());
